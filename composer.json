@@ -1,0 +1,27 @@
+{
+    "name": "brikou/zend_di",
+    "type": "library",
+    "description": "",
+    "description": "Zend Framework Di Library",
+    "keywords": [
+        "zend framework",
+        "di"
+    ],
+    "homepage": "https://github.com/brikou/zend_di",
+    "license": "Zend Framework",
+    "authors": [
+        {
+            "name": "Zend Technologies USA, Inc.",
+            "homepage": "http://framework.zend.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "brikou/zend_code": "*",
+        "brikou/zend_code-generator": "*",
+        "brikou/zend_config": "*"
+    },
+    "autoload": {
+        "psr-0": { "Zend\\Di": "" }
+    }
+}
